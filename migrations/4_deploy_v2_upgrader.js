@@ -43,7 +43,7 @@ module.exports = async (deployer, network) => {
     proxyContractAddress,
     fiatTokenV2.address,
     proxyAdminAddress,
-    "USD Coin"
+    "NZD Stablecoin"
   );
 
   console.log(`>>>>>>> Deployed V2Upgrader at ${v2Upgrader.address} <<<<<<<`);
